@@ -1,1 +1,90 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+	font-family: arial; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: verdana;
+}
+a:link {
+    font-weight: bolder;
+	color: black;
+}
+a:visited {
+	color: blue;
+}
+a:hover {
+	color: white;
+}
+a:active {
+    color: black;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a:link, a:visited {
+    width: 120px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+	border: 1px solid black;
+    text-decoration: none;
+    text-transform: none;
+}
+nav ul li a:hover {
+    background-color: black;
+	color: white;
+}
+a.active {
+	background-color: black;
+	color: white;
+}
+.poem {
+	list-style-type: none;
+	border: solid 2px black;
+	padding: 20px;
+	margin: 20px
+}
+#sidebar {
+	width: 250px;
+	float: right;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid black;
+}
+#sidebar ul {
+	list-style-type: none;
+}
+#sidebar ul li {
+	display: inline;
+}
+#sidebar img:hover {
+	-moz-box-shadow: 0 0 20px #ccc; 
+	-webkit-box-shadow: 0 0 20px #ccc; 
+	box-shadow: 0 0 20px #ccc; 
+}
+#sidebar p a:hover {
+	color: white;
+}
+div {
+	float: left;
+	width: 270px;
+	margin: 0px 15px 15px 0px;
+	padding: 20px;
+	border: 1px solid black;
+	text-align: center;
+}
+img {
+	border: 1px solid black;
+}
+.poem li {
+	font-size: medium;
+	line-height: 2.0;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+
